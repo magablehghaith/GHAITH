@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Ghaith Magableh</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="logo" href="index.html">GM</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    <form id="contactForm" novalidate>
+      <label>Full Name
+        <input type="text" name="fullName" placeholder="Your name" required />
+      </label>
+      <label>Email
+        <input type="email" name="email" placeholder="name@example.com" required />
+      </label>
+      <label>Country
+        <input type="text" name="country" placeholder="Jordan" required />
+      </label>
+      <label>Message
+        <textarea name="comments" rows="5" placeholder="Write your message here..." required></textarea>
+      </label>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <small>© <span id="year"></span> Ghaith Magableh. All rights reserved.</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
